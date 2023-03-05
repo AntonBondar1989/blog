@@ -1,77 +1,71 @@
 .navbar_ul {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   display: flex;
-   justify-content: space-between;
-   font-weight: 700;
-
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	font-weight: 700;
 }
 
 .navbar_ul li {
-   border-right: 1px;
-   margin-bottom: 8px;
+	border-right: 1px;
+	margin-bottom: 8px;
 }
 
 .navbar_row {
-   align-items: center;
-   box-sizing: border-box;
+	align-items: center;
+	box-sizing: border-box;
 }
 
 .details {
-   width: 100%;
+	width: 100%;
 }
 
 .logo_img {
-   width: 10%;
-   filter: drop-shadow(0px 0px 24px #00C5FF);
+	width: 10%;
+	filter: drop-shadow(0px 0px 24px #00c5ff);
 }
 
 .header_summary {
-   text-align: center;
-   list-style: none;
-   
+	text-align: center;
+	list-style: none;
 }
 
 details summary:before {
-   content: url(../img/menu2.png);
-   margin-right: 7px;
-   
+	content: url(../../public/img/menu2.png);
+	/* content: url(../img/menu2.png); */
+	margin-right: 7px;
 }
 
 details[open] summary:before {
-   content: none;
+	content: none;
 }
 
 .btn_header_menu {
-   border-radius: 5px;
-   background: linear-gradient(145deg, #1a323d54, #1a333d6e);
-   box-shadow: 5px 5px 6px #091013,
-      -5px -5px 6px #192c35;
-   border: none;
-   padding-left: 15px;
-   padding-right: 15px;
-   margin-bottom: 0px;
-   color: yellow;
+	border-radius: 5px;
+	background: linear-gradient(145deg, #1a323d54, #1a333d6e);
+	box-shadow: 5px 5px 6px #091013, -5px -5px 6px #192c35;
+	border: none;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 0px;
+	color: yellow;
 }
 
 .btn_header_menu_click {
-   border-radius: 5px;
-   background: linear-gradient(315deg, #0f1b2062, #12202769);
-   box-shadow: inset 5px 5px 6px #0c161a,
-      inset -5px -5px 10px #623776;
-   border: none;
-   padding-left: 15px;
-   padding-right: 15px;
-   margin-bottom: 0px;
-   color: yellow;
+	border-radius: 5px;
+	background: linear-gradient(315deg, #0f1b2062, #12202769);
+	box-shadow: inset 5px 5px 6px #0c161a, inset -5px -5px 10px #623776;
+	border: none;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 0px;
+	color: yellow;
 }
-
 
 /* MEDIA */
 @media (max-width: 500px) {
-   .box_logo {
-      text-align: center;
-   }
-
+	.box_logo {
+		text-align: center;
+	}
 }

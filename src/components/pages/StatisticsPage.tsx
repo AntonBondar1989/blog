@@ -13,9 +13,9 @@ import Winners from '../Winners';
 
 const StatisticsPage: React.FC = () => {
 
-   useEffect(() => {
+   // useEffect(() => {
 
-   }, [])
+   // }, [])
 
 
    return (
@@ -30,7 +30,7 @@ const StatisticsPage: React.FC = () => {
                </Grid>
                <Grid className='grid_column_stat' item xs={12} md={12}>
                   <Covid />
-               </Grid> 
+               </Grid>
             </Grid>
 
          </Box>

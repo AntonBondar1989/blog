@@ -19,4 +19,4 @@ const InfoPage: React.FC = () => {
    )
 }
 
-export default InfoPage;
+export default InfoPage;``

@@ -13,9 +13,9 @@ import Todo from '../Todo';
 
 const Main: React.FC = () => {
 
-   useEffect(() => {
+   // useEffect(() => {
 
-   }, [])
+   // }, [])
 
    return (
       <div className='main'>
@@ -28,10 +28,10 @@ const Main: React.FC = () => {
                   <Day />
                </Grid>
                <Grid className='grid_column vid_box' item xs={12} md={3}>
-                
+
                   <TomatoTimer />
                   {/* <Todo/> */}
-                  
+
                </Grid>
             </Grid>
 
