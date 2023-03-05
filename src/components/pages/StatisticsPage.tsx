@@ -23,7 +23,7 @@ const StatisticsPage: React.FC = () => {
          <Box sx={{ flexGrow: 10 }}>
             <Grid container spacing={2} justifyContent="center" style={{ boxSizing: "border-box" }}>
                <Grid className='grid_column_stat' item xs={12} md={12}>
-                  <Rus />
+                  {/* <Rus /> */}
                </Grid>
                <Grid className='grid_column_stat' item xs={12} md={12}>
                   <Winners />
