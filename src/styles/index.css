@@ -1,0 +1,31 @@
+body {
+   margin: 0 auto;
+   background-color: black;
+   font-family: 'Megrim', cursive;
+    background-repeat: no-repeat;
+}
+
+a {
+   text-decoration: none;
+   color: wheat;
+   text-shadow: 0 1px hsl(0deg 0% 100% / 50%);
+}
+
+a:hover {
+   color: wheat;
+
+}
+
+@keyframes Gradient {
+   0% {
+      background-position: 0% 50%;
+   }
+
+   50% {
+      background-position: 100% 50%;
+   }
+
+   100% {
+      background-position: 0% 50%;
+   }
+}
