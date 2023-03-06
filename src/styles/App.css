@@ -11,9 +11,7 @@
    object-fit: cover;
    transform: translate(-50%, -0%);
    z-index: -1;
-
 }
-
 
 /* MEDIA */
  @media  (max-width: 500px){

@@ -1,5 +1,5 @@
 import { Box, Grid } from '@mui/material';
-import React, { useEffect, useState } from 'react'
+import React, { useEffect} from 'react'
 
 
 import '../../styles/StatisticPage.css'
@@ -23,14 +23,14 @@ const StatisticsPage: React.FC = () => {
          <Box sx={{ flexGrow: 10 }}>
             <Grid container spacing={2} justifyContent="center" style={{ boxSizing: "border-box" }}>
                <Grid className='grid_column_stat' item xs={12} md={12}>
-                  {/* <Rus /> */}
+                  <Rus />
                </Grid>
                <Grid className='grid_column_stat' item xs={12} md={12}>
                   <Winners />
                </Grid>
                <Grid className='grid_column_stat' item xs={12} md={12}>
                   <Covid />
-               </Grid> 
+               </Grid>
             </Grid>
 
          </Box>
