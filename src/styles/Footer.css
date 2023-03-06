@@ -4,6 +4,16 @@ footer {
    padding-top: 5px;
 }
 
+.footer_anton_box {
+   color: #cbd4de;
+   font-weight: 900;
+}
+
+.footer_bogdan_box {
+   color: #cbd4de;
+   font-weight: 900;
+}
+
 .logomailtel {
    margin-right: 10px;
 }
@@ -14,6 +24,6 @@ footer {
 }
 
 .footer_text {
-   font-weight: 500;
-   color: #f5deb3;
+   font-weight: 900;
+   color: #cbd4de;
 }

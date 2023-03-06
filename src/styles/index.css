@@ -7,13 +7,7 @@ body {
 
 a {
    text-decoration: none;
-   color: wheat;
-   text-shadow: 0 1px hsl(0deg 0% 100% / 50%);
-}
-
-a:hover {
-   color: wheat;
-
+   color: #cbd4de;
 }
 
 @keyframes Gradient {
