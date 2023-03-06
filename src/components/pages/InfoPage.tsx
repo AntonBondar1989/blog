@@ -8,7 +8,7 @@ import '../../styles/InfoPage.css'
 
 const InfoPage: React.FC = () => {
 
-   
+
 
    return (
       <div className='info_page'>
@@ -19,4 +19,4 @@ const InfoPage: React.FC = () => {
    )
 }
 
-export default InfoPage;``
+export default InfoPage;
