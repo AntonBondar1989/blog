@@ -34,7 +34,7 @@
 }
 
 details summary:before {
-   content: url(../img/menu2.png);
+   content: url(../../public/img/menu2.png);
    margin-right: 7px;
    
 }
