@@ -4,7 +4,6 @@ import { useActions } from '../hook/useAction';
 
 import '../styles/StatisticPage.css'
 import { Card, CardContent, Typography } from '@mui/material';
-import { arta, bmpP, bpla, fly, helicopter, missiles, ppo, sea, special, tanksP, unitsP } from '../other/pictures';
 import { day, month, year } from '../other/Date';
 
 
@@ -75,48 +74,48 @@ const Rus: React.FC = () => {
                total losses of the enemy as of {day}.{month}.{year}
             </Typography>
             <Typography className='rus_stat' variant="h5" component="div">
-               <img src={unitsP} alt="" />&nbsp;
-              <span>personnel units -</span>  <span style={personnelUnits == personnel_units ? {color: "red", fontFamily: `fantasy`} : {color: "rgb(180, 73, 11)", fontFamily: `fantasy`} }>{personnelUnits}</span>
+               <img src='/img/statistics/units.png' alt="" />&nbsp;
+               <span>personnel units -</span>  <span style={personnelUnits == personnel_units ? { color: "red", fontFamily: `fantasy` } : { color: "rgb(180, 73, 11)", fontFamily: `fantasy` }}>{personnelUnits}</span>
             </Typography>
             <Typography className='rus_stat' variant="h5" component="div">
-               <img src={tanksP} alt="" />&nbsp;
-               <span >tanks - </span><span style={ruTanks == tanks ? {color: "red", fontFamily: `fantasy`} : {color: "rgb(180, 73, 11)", fontFamily: `fantasy`}}>{ruTanks}</span>
+               <img src='/img/statistics/tanks.png' alt="" />&nbsp;
+               <span >tanks - </span><span style={ruTanks == tanks ? { color: "red", fontFamily: `fantasy` } : { color: "rgb(180, 73, 11)", fontFamily: `fantasy` }}>{ruTanks}</span>
             </Typography>
             <Typography className='rus_stat' variant="h5" component="div">
-               <img src={bmpP} alt="" />&nbsp;
-               <span >armoured vehicles - </span><span style={armouredFightingVehicles == armoured_fighting_vehicles ? {color: "red", fontFamily: `fantasy`} : {color: "rgb(180, 73, 11)", fontFamily: `fantasy`}}>{armouredFightingVehicles}</span>
+               <img src='/img/statistics/bmp.png' alt="" />&nbsp;
+               <span >armoured vehicles - </span><span style={armouredFightingVehicles == armoured_fighting_vehicles ? { color: "red", fontFamily: `fantasy` } : { color: "rgb(180, 73, 11)", fontFamily: `fantasy` }}>{armouredFightingVehicles}</span>
             </Typography>
             <Typography className='rus_stat' variant="h5" component="div">
-               <img src={arta} alt="" />&nbsp;
-               <span >artillery systems - </span><span style={artillerySystems == artillery_systems ? {color: "red", fontFamily: `fantasy`} : {color: "rgb(180, 73, 11)", fontFamily: `fantasy`}}>{artillerySystems}</span>
+               <img src='/img/statistics/artileria.png' alt="" />&nbsp;
+               <span >artillery systems - </span><span style={artillerySystems == artillery_systems ? { color: "red", fontFamily: `fantasy` } : { color: "rgb(180, 73, 11)", fontFamily: `fantasy` }}>{artillerySystems}</span>
             </Typography>
             <Typography className='rus_stat' variant="h5" component="div">
-               <img src={ppo} alt="" />&nbsp;
-               <span > aa warfare systems - </span><span style={aaWarfareSystems == aa_warfare_systems ? {color: "red", fontFamily: `fantasy`} : {color: "rgb(180, 73, 11)", fontFamily: `fantasy`}}>{aaWarfareSystems}</span>
+               <img src='/img/statistics/ppo.png' alt="" />&nbsp;
+               <span > aa warfare systems - </span><span style={aaWarfareSystems == aa_warfare_systems ? { color: "red", fontFamily: `fantasy` } : { color: "rgb(180, 73, 11)", fontFamily: `fantasy` }}>{aaWarfareSystems}</span>
             </Typography>
             <Typography className='rus_stat' variant="h5" component="div">
-               <img src={fly} alt="" />&nbsp;
-               <span >planes - </span><span style={airplanes == planes ? {color: "red", fontFamily: `fantasy`} : {color: "rgb(180, 73, 11)", fontFamily: `fantasy`}}>{airplanes}</span>
+               <img src='/img/statistics/fly.png' alt="" />&nbsp;
+               <span >planes - </span><span style={airplanes == planes ? { color: "red", fontFamily: `fantasy` } : { color: "rgb(180, 73, 11)", fontFamily: `fantasy` }}>{airplanes}</span>
             </Typography>
             <Typography className='rus_stat' variant="h5" component="div">
-               <img src={helicopter} alt="" />&nbsp;
-               <span >helicopters - </span><span style={helicoptersFly == helicopters ? {color: "red", fontFamily: `fantasy`} : {color: "rgb(180, 73, 11)", fontFamily: `fantasy`}}>{helicoptersFly}</span>
+               <img src='/img/statistics/helic.png' alt="" />&nbsp;
+               <span >helicopters - </span><span style={helicoptersFly == helicopters ? { color: "red", fontFamily: `fantasy` } : { color: "rgb(180, 73, 11)", fontFamily: `fantasy` }}>{helicoptersFly}</span>
             </Typography>
             <Typography className='rus_stat' variant="h5" component="div">
-               <img src={sea} alt="" />&nbsp;
-               <span >warships - </span><span style={warshipsCutters == warships_cutters ? {color: "red", fontFamily: `fantasy`} : {color: "rgb(180, 73, 11)", fontFamily: `fantasy`}}>{warshipsCutters}</span>
+               <img src='/img/statistics/sea.png' alt="" />&nbsp;
+               <span >warships - </span><span style={warshipsCutters == warships_cutters ? { color: "red", fontFamily: `fantasy` } : { color: "rgb(180, 73, 11)", fontFamily: `fantasy` }}>{warshipsCutters}</span>
             </Typography>
             <Typography className='rus_stat' variant="h5" component="div">
-               <img src={missiles} alt="" />&nbsp;
-               <span >cruise missiles - </span><span style={cruiseMissiles == cruise_missiles ? {color: "red", fontFamily: `fantasy`} : {color: "rgb(180, 73, 11)", fontFamily: `fantasy`}}>{cruiseMissiles}</span>
+               <img src='/img/statistics/raketa.png' alt="" />&nbsp;
+               <span >cruise missiles - </span><span style={cruiseMissiles == cruise_missiles ? { color: "red", fontFamily: `fantasy` } : { color: "rgb(180, 73, 11)", fontFamily: `fantasy` }}>{cruiseMissiles}</span>
             </Typography>
             <Typography className='rus_stat' variant="h5" component="div">
-               <img src={bpla} alt="" />&nbsp;
-               <span >uav systems - </span><span style={uavSystems == uav_systems ? {color: "red", fontFamily: `fantasy`} : {color: "rgb(180, 73, 11)", fontFamily: `fantasy`}}>{uavSystems}</span>
+               <img src='/img/statistics/bpla.png' alt="" />&nbsp;
+               <span >uav systems - </span><span style={uavSystems == uav_systems ? { color: "red", fontFamily: `fantasy` } : { color: "rgb(180, 73, 11)", fontFamily: `fantasy` }}>{uavSystems}</span>
             </Typography>
             <Typography className='rus_stat' variant="h5" component="div">
-               <img src={special} alt="" />&nbsp;
-               <span >special military equip - </span><span style={specialMilitaryEquip == special_military_equip ? {color: "red", fontFamily: `fantasy`} : {color: "rgb(180, 73, 11)", fontFamily: `fantasy`}}>{specialMilitaryEquip}</span>
+               <img src='/img/statistics/special.png' alt="" />&nbsp;
+               <span >special military equip - </span><span style={specialMilitaryEquip == special_military_equip ? { color: "red", fontFamily: `fantasy` } : { color: "rgb(180, 73, 11)", fontFamily: `fantasy` }}>{specialMilitaryEquip}</span>
             </Typography>
             <Typography className='rus_stat' variant="h5" component="div">
                <div style={{ fontSize: '1rem', textAlign: "center" }}> <a href="https://facebook.com/story.php?story_fbid=pfbid036Z9rE9ewcJu33N6Dyj4SzMgmjd2LKWNGj4xDrQKmvox3yiyH7rUfq7rgA3SmXxZEl&id=100069073844828&eav=AfYVnF1OdQkrszlyxujFQ0fdfP8j5Su4zk-4Z4g4ZvoPUZNlL8prJwgG1cBe0PhgdDI&m_entstream_source=timeline&paipv=0">official data of the Ministry of Defense of Ukraine</a></div>

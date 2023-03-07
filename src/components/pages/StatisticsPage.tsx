@@ -1,5 +1,5 @@
 import { Box, Grid } from '@mui/material';
-import React, { useEffect} from 'react'
+import React, { useEffect, useState } from 'react'
 
 
 import '../../styles/StatisticPage.css'
@@ -13,9 +13,9 @@ import Winners from '../Winners';
 
 const StatisticsPage: React.FC = () => {
 
-   useEffect(() => {
+   // useEffect(() => {
 
-   }, [])
+   // }, [])
 
 
    return (
