@@ -71,7 +71,7 @@ const Rus: React.FC = () => {
       <Card className='rus_stat_card' sx={{ minWidth: 275 }}>
          <CardContent>
             <Typography className='title_rus_stat' variant="h4" gutterBottom>
-               total losses of the enemy as of {day}.{month}.{year}
+               total losses of the enemy as of ${day}.{month}.{year}
             </Typography>
             <Typography className='rus_stat' variant="h5" component="div">
                <img src='/img/statistics/units.png' alt="" />&nbsp;
