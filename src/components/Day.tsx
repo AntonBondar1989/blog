@@ -64,7 +64,7 @@ const Day: React.FC = () => {
       <div className='main_day'>
          <h1 className='main_day_title'><span>{monthName}</span> {day} </h1>
          <div className='main_day_undertitle'>{holidayName}</div>
-         <div className='under_main_day_description'>{holidayDescription === undefined ? "Welcome to my website. Hope you don't get bored." : holidayDescription}</div>
+         <div className='under_main_day_description'>{holidayDescription === undefined ? "Welcome to website. Hope you don't get bored." : holidayDescription}</div>
       </div>
    )
 }

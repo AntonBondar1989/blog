@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 
 
 import '../styles/Header.css'
+import MobileMenu from './MobileMenu/MobileMenu';
 
 
 interface ChildProps {
@@ -31,7 +32,6 @@ const Header: React.FC<ChildProps> = (props) => {
       <div className="container navbar_container " style={{ paddingTop: '20px' }} >
          <div className="row navbar_row"  >
             <div className="col-sm box_logo">
-
             </div>
             <div className="col-sm details">
                <details >
@@ -60,6 +60,10 @@ const Header: React.FC<ChildProps> = (props) => {
                   </ul>
                </details>
             </div>
+         </div>
+         {/* Мобильное меню */}
+         <div className='mobile_menu_box'>
+            <MobileMenu/>
          </div>
       </div>
    )

@@ -1,0 +1,13 @@
+.MuiPaper-root {
+  background: transparent !important;
+  margin-top: 0px !important;
+  padding: 0 !important;
+}
+
+.MuiButtonBase-root {
+   background: transparent !important;
+ 
+}
+.MuiList-root {
+  background: rgba(0, 0, 0, 0.788) !important;
+}
