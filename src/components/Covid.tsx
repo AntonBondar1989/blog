@@ -79,11 +79,11 @@ const Covid: React.FC = () => {
             <Typography className='title_cov_stat' variant="h4" gutterBottom>
                Covid -19 statistics {data1}
                {countryName === undefined ? <div style={{ marginTop: '50%' }}>Data display problem. Try later...</div> :
-                  <div style={{display: "flex", flexDirection: 'column', alignItems: "center"}}>
+                  <div style={{ display: "flex", flexDirection: 'column', alignItems: "center" }}>
                      <div>{countryName}</div>
                      <Pie
 
-                        // className="pie"
+                        className="pie"
                         data={dataPie} />
                   </div>
                }
