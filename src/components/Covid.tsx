@@ -1,12 +1,11 @@
-import { Card, CardContent, Typography } from "@mui/material";
-import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { useEffect } from "react";
 import { Pie } from 'react-chartjs-2';
+import { Card, CardContent, Typography } from "@mui/material";
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
+
 import { useActions } from "../hook/useAction";
 import { useTypedSelector } from "../hook/useTypedSelector";
 import { data1 } from "../other/Date";
-
-
 
 
 
@@ -41,6 +40,7 @@ const Covid: React.FC = () => {
       labels: [`Total Confirmed: ${countryTotalConfirmed}`, `New Confirmed: ${countryNewConfirmed}`, `Total Deaths: ${countryTotalDeaths}`, `New Deaths: ${countryNewDeaths}`, `Total Recovered: ${countryTotalRecoveredNumb}`],
       datasets: [
          {
+
             label: '',
             data: [countryTotalConfirmed, countryNewConfirmed, countryTotalDeaths, countryNewDeaths, countryTotalRecoveredNumb],
             backgroundColor: [
@@ -58,6 +58,7 @@ const Covid: React.FC = () => {
                '#27F260',
 
             ],
+
             borderWidth: 1,
          },
       ],
@@ -80,7 +81,10 @@ const Covid: React.FC = () => {
                {countryName === undefined ? <div style={{ marginTop: '50%' }}>Data display problem. Try later...</div> :
                   <div>
                      <div>{countryName}</div>
-                     <Pie className="pie" data={dataPie} />
+                     <Pie
+
+                        // className="pie"
+                        data={dataPie} />
                   </div>
                }
             </Typography>
