@@ -8,6 +8,10 @@
 
 }
 
+.mobile_menu_box {
+   display: none;
+}
+
 .navbar_ul li {
    border-right: 1px;
    margin-bottom: 8px;
@@ -72,6 +76,14 @@ details[open] summary:before {
 @media (max-width: 500px) {
    .box_logo {
       text-align: center;
+      
+   }
+   .navbar_row {
+      display: none;
+   }
+
+   .mobile_menu_box {
+      display: block;
    }
 
 }

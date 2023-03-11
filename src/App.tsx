@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import { BrowserRouter } from 'react-router-dom';
 import AppRouter from './components/AppRoutes';
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header';
 // import { video } from './other/pictures';
 

@@ -19,6 +19,7 @@
     "@types/react-redux": "^7.1.25",
     "axios": "^1.2.2",
     "chart.js": "^4.2.0",
+    "material-ui-popup-state": "^5.0.4",
     "react": "^18.2.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",

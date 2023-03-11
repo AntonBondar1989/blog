@@ -1,5 +1,7 @@
 footer {
    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
    justify-content: space-around;
    padding-top: 5px;
 }
@@ -26,4 +28,26 @@ footer {
 .footer_text {
    font-weight: 900;
    color: #cbd4de;
+}
+
+
+/* MEDIA */
+@media (max-width: 500px) {
+   footer {
+      text-align: center;
+      position: relative;
+   }
+   .footer_anton_box {
+    width: 100%;
+    margin-bottom: 40px;
+   }
+   
+   .footer_bogdan_box {
+      width: 100%;
+   }
+   .footer_text {
+      width: 100%;
+      position: absolute;
+      bottom: 10px;
+   }
 }
